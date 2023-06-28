@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+#The ping is used to test the reachability and response time of a network host 
+#-z is used to check if a string is empty.
+#-c is used to declare how many packages you want to display.
 if [ -z "$1" ]; then
       echo "Usage: $(basename "$0") {IP_ADDRESS}"
 else
