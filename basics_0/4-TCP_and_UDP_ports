@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
+#netstat shows information about the newtwork connections.
+#-0 flag shows the PID and name of the program.
 netstat -0
-
-# netstat shows information about the newtwork connections
-# -0 flag - That shows the PID and name of the program to which each socket belongs
