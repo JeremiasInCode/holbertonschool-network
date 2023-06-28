@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ -z "$first_argument" ]; then
+      echo "Usage: $(basename "$name") {IP_ADDRESS}"
+else
+      ping -c 5 "$first_argument"
+fi
